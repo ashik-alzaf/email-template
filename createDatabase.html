@@ -1,42 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Database</title>
+    <title>create Database</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
             border: 0;
-        }
-
-        body {
-            font-family: "DM Sans", sans-serif;
-            font-style: normal;
-            background: #D6D9DB;
-            margin: 24px;
+            box-sizing: border-box;
 
         }
 
-        #header {
-            max-width: 552px;
-            height: 633px;
-            margin: auto;
-            padding: 24px;
-            border-radius: 6px;
-            background: #FFF;
-            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+
+        /* responsive */
+        @media screen and (max-width:585px) {
+            #header {
+                height: auto !important;
+
+            }
+        }
+        @media screen and (max-width:535px) {
+            #header {
+                height: auto !important;
+
+            }
+        }
+        @media screen and (max-width:475px) {
+         #box{
+            height: auto !important;
+         }
+        }
+
+        @media screen and (max-width:375px) {
+            #header {
+                padding: 16px !important;
+            }
+
+            #main-header {
+                padding: 16px !important;
+            }
+        }
+
+        @media screen and (max-width:360px) {
+            #header {
+                display: flex !important;
+                flex-direction: column !important;
+                text-align: center !important;
+                justify-items: center !important;
+                justify-content: center !important;
+            }
 
 
+            #icon {
+                justify-content: center !important;
+            }
+
+
+        }
+
+        @media screen and (max-width:359px) {
+            h1 {
+                font-size: 24px !important;
+
+            }
+
+            p {
+                font-size: 14px !important;
+
+
+            }
+
+
+            #planButton {
+                font-size: 14px !important;
+            }
         }
     </style>
 </head>
-<body>
-    
-    <div id="header">
 
+<body style=" background: #D6D9DB;">
+
+    <div id="main-header" style="font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    ">
+
+        <div id="header" style="max-width: 552px;
+        height: 633px;
+        margin: auto;
+        padding: 24px;
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);">
+
+            <div>
+                <img src="https://i.ibb.co/HVyHkjF/image-321.jpg" alt="loading">
+            </div>
+            <h1 style="margin-top: 30px; line-height: normal; font-size: 30px; font-weight: 500; color: #16A34A;">
+                Congratulation!
+            </h1>
+
+            <p style="margin-top: 16px;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+             color: #344054; text-align: 
+             justify; letter-spacing: 0.96px;">
+
+                Your database has been successfully created on Nexzan. You’re all set to start building and managing
+                your data. Here are the details:</p>
+
+            <div style="margin-top: 24px">
+                <div id="box" style="border: 0.5px solid #85DFA6;
+                   padding: 16px;
+           background: #F3FAF6;
+           
+           height: 174px;">
+
+<ul style="  font-family: 'DM Mono', monospace; display: flex; flex-direction: column; gap: 8px;
+">
+    <li style="list-style: none; font-size: 14px; line-height: 22px; letter-spacing: 0.56px; "">
+        <span style="font-weight: 500;">Username:</span>
+        <span style="font-weight: 400;">alzaf admin </span>
+    </li>
+    <li style="list-style: none; font-size: 14px; line-height: 22px; letter-spacing: 0.56px; "">
+        <span style="font-weight: 500;">Password:</span>
+        <span style="font-weight: 400;">YTxgsgh764dblzaLimited </span>
+    </li>
+    <li style="list-style: none; font-size: 14px; line-height: 22px; letter-spacing: 0.56px; "">
+        <span style="font-weight: 500;">Host:</span>
+        <span style="font-weight: 400;">hssidh-zsdfs-dgdgd-dsdgdg-tyrttr </span>
+    </li>
+    <li style="list-style: none; font-size: 14px; line-height: 22px; letter-spacing: 0.56px; "">
+        <span style="font-weight: 500;">Username:</span>
+        <span style="font-weight: 400;">48759 </span>
+    </li>
+    <li style="list-style: none; font-size: 14px; line-height: 22px; letter-spacing: 0.56px; "">
+        <span style="font-weight: 500;">Creation Time:</span>
+        <span style="font-weight: 400;">11:37 AM - 08/09/2024 </span>
+    </li>
+</ul>
+
+                </div>
+            </div>
+
+            <p  style="font-size: 16px;
+            padding: 24px 0px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.64px">
+                If you need any assistance, our
+                <a href="#" target="_blank"  style="color: #2D5BFF; cursor: pointer;  outline: none; text-decoration: none;">support team </a>
+                is here to help.
+            </p>
+            <div style="color: #344054; ">
+                <p style="font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0.64px">
+                    Happy Building!
+                </p>
+                <p style="font-size: 16px;
+                margin-top: 4px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0.64px;">
+                    The Nexzan Team
+                </p>
+            </div>
+
+            <div id="icon" style="display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 30px ;">
+
+                <!-- facebookIcon -->
+                <a href="#" target="_blank">
+                    <img src="https://i.ibb.co/zFWY2yH/facebook-1.png" alt="">
+                </a>
+
+
+                <!-- twitterIcon -->
+                <a href="#" target="_blank">
+                    <img src="https://i.ibb.co/8bBdvg8/x-twitter-1.png" alt="">
+                </a>
+
+                <!-- instagramIcon -->
+                <a href="#" target="_blank">
+                    <img src="https://i.ibb.co/YtVHx8B/instagram-1.png" alt="">
+                </a>
+
+                <!-- linkedinIcon -->
+                <a href="#" target="_blank">
+                    <img src="https://i.ibb.co/N3fWWCc/linkedin-1.png" alt="">
+                </a>
+
+                <!-- redditIcon -->
+                <a href="#" target="_blank">
+
+                    <img src="https://i.ibb.co/vBddbmF/reddit-1.png" alt="">
+                </a>
+
+            </div>
+
+        </div>
     </div>
 </body>
+
 </html>
