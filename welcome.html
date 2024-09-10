@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
-
-
         * {
             margin: 0;
             padding: 0;
@@ -18,77 +19,37 @@
 
         }
 
-        body {
-
-            background: #D6D9DB;
-        }
-
-        #main-header {
-            font-family: "DM Sans", sans-serif;
-            font-style: normal;
-            padding: 24px;
-
-        }
-
-        #header {
-            height: 445px;
-        }
-
-        h1 {
-            font-size: 30px;
-            font-weight: 500;
-        }
-
-        p {
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 24px;
-        }
-
-
-
-        #planButton {
-            font-size: 16px;
-
-        }
-
-        #icon {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-top: 30px;
-        }
 
         /* responsive */
         @media screen and (max-width:525px) {
             #header {
-                height: auto;
+                height: auto !important;
 
             }
         }
 
         @media screen and (max-width:375px) {
             #header {
-                padding: 16px;
+                padding: 16px !important;
             }
 
             #main-header {
-                padding: 16px;
+                padding: 16px !important;
             }
         }
 
         @media screen and (max-width:360px) {
             #header {
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                justify-items: center;
-                justify-content: center;
+                display: flex !important;
+                flex-direction: column !important;
+                text-align: center !important;
+                justify-items: center !important;
+                justify-content: center !important;
             }
 
 
             #icon {
-                justify-content: center;
+                justify-content: center !important;
             }
 
 
@@ -96,28 +57,33 @@
 
         @media screen and (max-width:359px) {
             h1 {
-                font-size: 24px;
+                font-size: 24px !important;
 
             }
 
             p {
-                font-size: 14px;
+                font-size: 14px !important;
 
 
             }
 
 
             #planButton {
-                font-size: 14px;
+                font-size: 14px !important;
             }
         }
     </style>
 </head>
 
-<body>
+<body style=" background: #D6D9DB;   
+   ">
 
-    <div id="main-header">
+    <div id="main-header" style="font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+     padding: 24px;">
+
         <div id="header" style="max-width: 552px;
+        height: 445px;
         margin: auto;
         padding: 24px;
         border-radius: 6px;
@@ -127,15 +93,18 @@
             <div>
                 <img src="https://i.ibb.co/HVyHkjF/image-321.jpg" alt="loading">
             </div>
-            <h1 style="margin-top: 30px; line-height: normal;">
+            <h1 style="margin-top: 30px; line-height: normal; font-size: 30px; font-weight: 500;">
                 <span style="color: #344054;">Welcome to</span>
                 <span style="color: #7156F6;">Nexzan!</span>
             </h1>
 
-            <p 
-            style="margin-top: 12px;
+            <p style="margin-top: 12px;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
              color: #344054; text-align: 
              justify;">
+
                 Hey Mir Monir,
                 Greeting!
                 You have successfully
@@ -150,20 +119,32 @@
                 height: 42px;
                 border-radius: 6px;
                 font-weight: 500;
+                font-size: 16px;
                 outline: none;
                 margin: 30px 0px;
                 cursor: pointer;">
-                
+
                     Choose a Plan
-                
+
                 </button>
             </div>
             <div style="color: #344054; ">
-                <p>Thank You!</p>
-                <p>Nexzan Team</p>
+                <p style="font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;">
+                    Thank You!
+                </p>
+                <p style="font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;">
+                    Nexzan Team
+                </p>
             </div>
 
-            <div id="icon">
+            <div id="icon" style="display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 30px ;">
 
                 <!-- facebookIcon -->
                 <a href="#" target="_blank">
